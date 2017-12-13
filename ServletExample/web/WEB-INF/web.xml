@@ -4,9 +4,17 @@
         <servlet-name>TestServlet</servlet-name>
         <servlet-class>TestServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>GreetingsServlet</servlet-name>
+        <servlet-class>GreetingsServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>TestServlet</servlet-name>
         <url-pattern>/TestServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GreetingsServlet</servlet-name>
+        <url-pattern>/GreetingsServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
